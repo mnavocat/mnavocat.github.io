@@ -1,0 +1,53 @@
+<!-- Top Navigation -->
+<header class="SiteNav">
+    <a on="tap:sidebar.toggle" class="MenuToggle"><i class="fa fa-bars"></i></a>
+    <nav class="SiteNav-links">
+      <ul>
+        <li {% if page.path == "index.md" %}class="active"{% endif %}>
+          <a href="{% link index.md %}">Accueil</a>
+        </li>
+        <li {% if page.path == "about.md" %}class="active"{% endif %}>
+          <a href="{% link about.md %}">Présentation</a>
+        </li>
+      </ul>
+    </nav>
+    <a href="/" class="Logo-container"><amp-img class="Logo"
+        src="/assets/smn-75.png"
+        srcset="/assets/smn-75.png 1x, /assets/smn-150.png 2x, /assets/smn-225.png 3x"
+        alt="Cabinet MNAvocat"
+        height="75"
+        width="75"></amp-img></a>
+    <nav class="SiteNav-links">
+      <ul>
+        <li {% if page.path == "blog.md" %}class="active"{% endif %}>
+          <a href="{% link blog.md %}">Blog</a>
+        </li>
+        <li {% if page.path == "contact.md" %}class="active"{% endif %}>
+          <a href="{% link contact.md %}">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- / Top Navigation -->
+  <!-- Side Menu -->
+  <amp-sidebar id="sidebar" layout="nodisplay" side="right">
+    <nav class="SideNav">
+      <h1>Sections</h1>
+      <ul>
+        <li>
+          <a href="{% link index.md %} ">Accueil</a>
+        </li>
+        <li>
+          <a href="{% link about.md %}">Présentation</a>
+        </li>
+        <li>
+          <a href="{% link blog.md %}">Blog</a>
+        </li>
+        <li>
+          <a href="{% link contact.md %}">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </amp-sidebar>
+  <!-- / Side Menu -->
+

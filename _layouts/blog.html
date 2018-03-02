@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="container">
+    <h1>Liste des Articles</h1>
+
+    <p>
+        Vous trouverez ici la liste des différents articles présents sur le site.
+        Ces articles proposent des conseils ainsi que des notes prises lors de colloques spécialisés et sont à la
+        disposition de tous pour consultation.
+    </p>
+
+    <div class="Posts">
+        {% for post in site.posts %}
+        <li class="PostExcerpt">
+            {% include post_date.html date=post.date %}
+            <a href="{{ post.url | relative_url }}">
+                <h3>{{ post.title | escape }}</h3>
+                <h5>{{ post.subtitle | escape }}</h5>
+                <div class="PostExcerpt-body">
+                    {{ post.excerpt }}
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+    </div>
+</div>

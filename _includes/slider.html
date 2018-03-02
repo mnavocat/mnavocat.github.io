@@ -1,0 +1,21 @@
+<!-- Home Gallery -->
+<amp-carousel width="800" height="400" layout="responsive" autoplay delay="8000" type="slides" class="Slider">
+    {% for slide in site.home_slider %}
+    <div class="Slide">
+        <amp-img
+                src="https://source.unsplash.com/{{ slide.unsplash_id }}/800x400"
+                srcset="https://source.unsplash.com/{{ slide.unsplash_id }}/400x200 400w, https://source.unsplash.com/{{ slide.unsplash_id }}/800x400 800w, https://source.unsplash.com/{{ slide.unsplash_id }}/1600x800 1600w, https://source.unsplash.com/{{ slide.unsplash_id }}/3200x1600 3200w"
+                width="800"
+                height="400"
+                layout="responsive"
+                alt="{{ slide.name }}">
+        </amp-img>
+        <div class="Slide-overlay">
+            {% for text in slide.texts %}
+            <p><span class="text">{{ text }}</span></p>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</amp-carousel>
+<!-- / Home Gallery -->

@@ -1,0 +1,429 @@
+$highlight-color: #4c656f;
+$padding: 1em;
+$padding-small: 0.3em;
+$base-font-size-mobile: 10pt;
+$base-font-size-desktop: 13pt;
+$base-font-size-desktop-large: 15pt;
+$safe-width: 780px; /* used for containers */
+$safe-width-large: 1024px;
+$info-font-size: 0.8em;
+$text-over-highlight-color: #fff;
+$menu-items-spacing: 0.5em;
+$side-menu-font-size: 1.4em;
+$slide-text-font-size: 0.9em;
+$slide-text-font-size-medium: 1.3em;
+$slide-text-font-size-large: 1.6em;
+$details-font-size: 0.9em;
+
+/**************************************************
+ * Base styles
+ **************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Exo font (default font) */
+
+@font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISc36j2jDu5w.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+:root {
+    font-family: Exo, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+}
+
+/* define rem */
+
+:root {
+    font-size: $base-font-size-mobile;
+}
+
+/*
+ * base components
+ */
+
+/* link styles */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a[href^=tel],
+a[href^=mailto] {
+    display: inline-block;
+    color: $highlight-color;
+}
+
+/* remove list styles */
+ul {
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
+
+/* custom <hr>s */
+hr {
+    border-color: $highlight-color;
+    border-top: none;
+    box-shadow: none;
+    width: 6em;
+    margin: 0 auto;
+}
+.u-highlighted-content hr {
+  border-color: $text-over-highlight-color;
+}
+
+/* change color for <em>s */
+em {
+    font-style: normal;
+    color: $highlight-color;
+}
+
+address {
+    font-style: normal;
+}
+
+/* for iPads & co */
+@media screen and (min-width: 480px) {
+    :root {
+        font-size: $base-font-size-desktop;
+    }
+}
+@media screen and (min-width: 1024px) {
+    :root {
+        font-size: $base-font-size-desktop-large;
+    }
+}
+
+
+/**************************************************
+ * Utilities
+ **************************************************/
+
+.container {
+    padding: $padding-small;
+    max-width: $safe-width;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col {
+        flex: 1;
+        .w2 {
+            flex: 2;
+        }
+    }
+
+  .container {
+      padding: $padding;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+      max-width: $safe-width-large;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+.section {
+    padding: $padding;
+    text-align: center;
+
+    h1, h4 {
+        text-transform: uppercase;
+    }
+    h4, h5 {
+        color: $highlight-color;
+    }
+    h5 {
+        text-align: left;
+    }
+
+    &.u-highlighted-content {
+        h4, h5 {
+            color: $text-over-highlight-color;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .section {
+        h5 {
+            text-align: center;
+        }
+    }
+}
+
+.u-highlighted-content {
+  background-color: $highlight-color;
+  color: $text-over-highlight-color;
+
+  a {
+    color: $text-over-highlight-color;
+  }
+}
+
+.u-highlighted{
+  color: $highlight-color;
+}
+
+.u-center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/**************************************************
+ * Header and Footer
+ **************************************************/
+
+.InfoHeader {
+    font-size: $info-font-size;
+    padding: $padding-small;
+    text-align: center;
+}
+
+.SiteNav {
+    /* centered content by default */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* use this element as axis */
+    position: relative;
+
+    &-links {
+        flex: 1;
+
+        &:first-of-type ul {
+            text-align: right;
+        }
+        ul > li {
+            display: inline-block;
+            padding: 0 $menu-items-spacing;
+            color: $highlight-color;
+
+            &.active > a {
+                border-bottom: 1px solid $highlight-color;
+            }
+        }
+    }
+}
+
+.Logo {
+    &, &-container {
+        height: 75px;
+        width: 75px;
+    }
+
+    &-container {
+        margin: $menu-items-spacing;
+    }
+}
+
+.MenuToggle {
+    left: $padding;
+    font-size: 1.8em;
+    color: $highlight-color;
+    /* remove it from the flow to avoid issues w/ positionong */
+    position: absolute;
+}
+
+.SideNav {
+    font-size: $side-menu-font-size;
+    padding: 0.5em;
+
+    h1 {
+        text-align: center;
+    }
+    ul > li {
+        margin: $padding;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .SiteNav-links > ul {
+        display: none;
+    }
+}
+@media screen and (min-width: 600px) {
+    .MenuToggle {
+        display: none;
+    }
+}
+
+.HomeFooter {
+    border-top: 4px solid #9b825e;
+    padding-bottom: 2 * $padding;
+
+    h4, h6 {
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    hr {
+      margin: $padding auto;
+    }
+}
+
+.SocialLinks {
+    li {
+        display: inline-block;
+        margin: $padding-small;
+    }
+}
+
+.SocialLink  {
+    i {
+        background-color: $text-over-highlight-color;
+        color: $highlight-color;
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        font-size: 2em;
+        border-radius: 1em;
+        border-width: 5px;
+        border-color: $text-over-highlight-color;
+        vertical-align: top;
+    }
+}
+
+/**************************************************
+ * Home Page
+ **************************************************/
+
+.Slider {
+    max-height: 550px;
+}
+
+.Slide-overlay {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+
+    p .text {
+        padding: 0.2em 0.4em;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 2px;
+        font-size: $slide-text-font-size;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .Slide-overlay p .text {
+        font-size: $slide-text-font-size-medium;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .Slide-overlay p .text {
+        font-size: $slide-text-font-size-large;
+    }
+}
+
+
+/**************************************************
+ * Post
+ **************************************************/
+
+.Post {
+  padding: $padding;
+
+  ul {
+    padding-left: $padding;
+    li {
+      list-style-type: square;
+    }
+  }
+
+  a {
+    color: $highlight-color;
+    text-decoration: underline;
+  }
+
+  &-header {
+    position: relative;
+    text-align: center;
+    max-height: 550px;
+    overflow: hidden;
+
+    h1 {
+      position: absolute;
+      bottom: 0;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.4);
+      font-size: 1.4em;
+      width: 100%;
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  &-image {
+    float: left;
+    margin: $padding-small;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .Post-header {
+    h1 {
+      font-size: 2em;
+    }
+  }
+}
+
+.PostAddress {
+  color: $highlight-color;
+
+  p {
+    margin: $padding-small;
+  }
+}
+.u-highlighted-content .PostAddress {
+  color: $text-over-highlight-color;
+}
+
+.PostExcerpt {
+  border-left: 2px solid $highlight-color;
+  padding-left: $padding;
+  margin: 2 * $padding $padding;
+
+  h5 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+  em {
+    color: inherit;
+  }
+
+  &-body {
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1em;
+    }
+  }
+}
+
+/**************************************************
+ * Other Styles
+ **************************************************/

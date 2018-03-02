@@ -1,0 +1,62 @@
+<!-- Home Footer -->
+<footer class="HomeFooter u-highlighted-content section">
+    <div class="container">
+        <div class="row">
+            {% if site.posts.size > 0 %}
+            <div class="col">
+                <h5>Les derniers articles</h5>
+                <ul>
+                {% for post in site.posts limit:2 %}
+                    <li>
+                        <a href="{{ post.url | relative_url }}">
+                            <h4>{{ post.title | escape }}</h4>
+                            {% if post.subtitle %}<h6>{{ post.subtitle | escape }}</h6>{% endif %}
+                        </a>
+                    </li>
+                    {% if forloop.first %}
+                    <hr>
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            <div class="col">
+                <h5>Contact</h5>
+                <div class="Contact" id="contact">
+                    {% include address.html %}
+                    <ul>
+                        <li>
+                            <a href="mailto:{{ site.email }}">
+                                <i class="fa fa-envelop"></i> <span itemprop="email">{{ site.email }}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:{{ site.phone_number }}">
+                                <i class="fa fa-phone"></i> <span itemprop="telephone">{{ site.phone_number_text }}</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="SocialLinks">
+                        <ul>
+                            {% if site.twitter_username %}
+                            <li>
+                                <a href="https://twitter.com/{{ site.twitter_username }}" class="SocialLink">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            {% endif %}
+                            {% if site.linkedin_username %}
+                            <li>
+                                <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="SocialLink">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- / Home Footer -->
