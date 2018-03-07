@@ -1,7 +1,7 @@
 ---
 layout: page
 title: À propos
-permalink: /author/mnavocat/
+permalink: /presentation/
 ---
 Avocate pour les victimes d'accidents corporels depuis plus de 7 ans, et
 fondatrice du Cabinet MN Avocat depuis 2 ans, Maître Sophie MOUTOT NOCE met
