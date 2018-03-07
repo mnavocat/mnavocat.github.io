@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Les préjudices indemnisables de la victime directe d'un accident corporel"
-date: 2017-07-13 16:08:00 +0100
+published: 2017-07-13 16:08:00 +0100
 permalink: /les-prejudices-indemnisables-de-la-victime-directe-suite-a-un-accident-de-la-circulation-une-agression-un-accident-medical-ou-tout-type-devenement-accidentel/
 categories: conseils
 ---

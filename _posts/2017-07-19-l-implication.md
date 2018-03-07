@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "L'implication dans les accidents de la circulation"
-date: 2017-07-19 13:14:00 +0100
+published: 2017-07-19 13:14:00 +0100
 unsplash_id: 5WUB10XtehU
 permalink: /coursiersvictimeleetatlimplication-dans-les-accidents-de-la-circulation/
 categories: conseils

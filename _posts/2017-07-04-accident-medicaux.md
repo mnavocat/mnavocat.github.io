@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Accidents médicaux et indemnisation par l'ONIAM au titre de la solidarité nationale"
-date: 2017-07-04 15:46:00 +0100
+published: 2017-07-04 15:46:00 +0100
 permalink: /accidents-medicaux-et-indemnisation-par-loniam-ou-la-solidarite-nationale/
 categories: notes
 ---

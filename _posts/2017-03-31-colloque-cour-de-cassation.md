@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Colloque de la cour de cassation sur l'expertise judiciaire"
-date: 2017-03-31 23:03:00 +0100
+published: 2017-03-31 23:03:00 +0100
 permalink: /colloquecolloque-de-la-cour-de-cassation-sur-lexpertise-judiciaire/
 categories: notes
 ---

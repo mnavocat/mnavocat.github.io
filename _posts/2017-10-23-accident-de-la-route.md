@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Victime d'un accident de la route: remboursement de toutes vos dépenses de santé"
-date: 2017-10-23 09:22:00 +0100
+published: 2017-10-23 09:22:00 +0100
 permalink: /coursiersvictime-dun-accident-de-la-route-remboursement-de-toutes-vos-depenses-de-sante/
 unsplash_id: _IfQPphp_EE
 categories: conseils

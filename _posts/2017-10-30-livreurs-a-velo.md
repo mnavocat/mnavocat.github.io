@@ -2,7 +2,7 @@
 layout: post
 title: "Coursiers ou livreurs à vélo, cyclistes habituels ou occasionnels: attention au changement d'heure"
 subtitle: "6 conseils pratiques si vous êtes victimes d’un accident de la circulation"
-date: 2017-10-30 12:24:00 +0100
+published: 2017-10-30 12:24:00 +0100
 permalink: /coursiers-ou-livreurs-a-velo-cyclistes-habituels-ou-occasionnels-attention-au-changement-dheure/
 unsplash_id: 0gLH1kqRldc
 categories: conseils

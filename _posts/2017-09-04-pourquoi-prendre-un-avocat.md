@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pourquoi prendre unᐧe avocatᐧe assistant uniquement les victimes de commages corporels pour solliciter l'indemnisation de ses préjudices ?"
-date: 2017-09-04 11:58:00 +0100
+published: 2017-09-04 11:58:00 +0100
 permalink: /coursiersvictimeleetatpourquoi-prendre-un·e-avocat·e-assistant-uniquement-les-victimes-de-dommages-corporels-pour-solliciter-lindemnisation-de-ses-prejudices-3/
 categories: conseils
 ---

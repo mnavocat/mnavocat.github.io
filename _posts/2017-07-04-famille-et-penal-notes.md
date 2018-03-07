@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CAMPUS 2017: Famille et Pénal, une nécessaire coordination en matière de violences conjugales"
-date: 2017-07-04 14:52:00 +0100
+published: 2017-07-04 14:52:00 +0100
 permalink: /campus-2017-famille-et-penal-une-necessaire-coordination-en-matiere-de-violences-conjugales/
 categories: notes
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Colloque du 27 avril 2017 à la maison du barreau"
 subtitle: "Dommage corporel et personnes protégées: maitriser les règles de la protection des mineurs et des majeurs à chaque étape d'un dossier de commage corporel"
-date: 2017-04-28 09:45:00 +0100
+published: 2017-04-28 09:45:00 +0100
 permalink: /colloque-du-27-avril-2017-a-la-maison-du-barreau-dommage-corporel-et-personnes-protegees-maitriser-les-regles-de-la-protection-des-mineurs-et-des-majeurs-a-chaque-etape-dun-dossier-de/
 categories: notes
 ---

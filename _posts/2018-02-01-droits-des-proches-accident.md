@@ -2,7 +2,7 @@
 layout: post
 title:  Droits des proches suite à un accident collectif
 subtitle: Proches d'une victime décédée dans le cadre d'un accidend collectif, quels sont vos droits ?
-date: 2018-02-01 12:59:00 +0100
+published: 2018-02-01 12:59:00 +0100
 permalink: /droits-des-proches-suite-a-un-accident-collectifs/
 unsplash_id: 7qTWk41nDgM
 categories: conseils

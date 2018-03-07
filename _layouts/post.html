@@ -28,12 +28,12 @@ is_post: true
             alt="Maitre Sophie Moutot Noce"
             aria-hidden="true">
     </amp-img>
-    {% if page.date %}
-    {% include post_date.html date=page.date %}
+    {% if page.published %}
+    {% include post_date.html date=page.published %}
     {% endif %}
     {% unless page.unsplash_id %}
     <h1>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.published | date: date_format }}</span>
         {{ page.title }}
     </h1>
     {% endunless %}

@@ -2,7 +2,7 @@
 layout: post
 title: "Le droit de demander une nouvelle expertise"
 subtitle: "En 2017, en matière d'indemnisation du dommage corporel, l'expertise médicale à un rôle central et determinant"
-date: 2017-08-28 09:26:00 +0100
+published: 2017-08-28 09:26:00 +0100
 permalink: /coursiersvictimeleetatle-droit-de-demander-une-nouvelle-expertise/
 unsplash_id: CEM52sAHR80
 categories: conseils

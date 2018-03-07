@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "État antérieur et aggravation d'un pathologit préexistante: conséquences en matière d'indemnisation des victimes d'accident"
-date: 2017-09-11 12:56:00 +0100
+published: 2017-09-11 12:56:00 +0100
 permalink: /etat-anterieur-et-aggravation-dune-pathologie-preexistante-consequences-en-matiere-dindemnisation-des-victimes-daccident/
 categories: conseils
 ---

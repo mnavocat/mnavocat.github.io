@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Victime d'un accident de la route: remboursement de toutes vos dépenses de santé"
-date: 2017-09-15 17:01:00 +0100
+published: 2017-09-15 17:01:00 +0100
 permalink: /le-droit-a-lindemnisation-des-victimes-daccident-de-la-circulation-meme-en-cas-dauteur-non-identifie-ou-non-assure/
 categories: conseils
 ---
