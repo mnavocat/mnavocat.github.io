@@ -1,4 +1,4 @@
-<div class="PostAddress {% if include.centered %}u-center-content{% endif %}" itemscope itemtype="http://schema.org/LocalBusiness">
+<article class="PostAddress {% if include.centered %}u-center-content{% endif %}" itemscope itemtype="http://schema.org/LocalBusiness">
 	<p itemprop="name">{{ site.address.name }}</p>
     <address {% if include.centered %}class="u-center-content"{% endif %} itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         <p itemprop="street-address">{{ site.address.street_address }}</p>
@@ -7,4 +7,4 @@
             <span itemprop="locality">{{ site.address.locality }}</span>
         </p>
     </address>
-</div>
+</article>

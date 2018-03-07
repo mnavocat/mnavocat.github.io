@@ -27,7 +27,7 @@ ses préjudices :
    
   Pour déterminer les responsabilités, et conclure que la victime n’a commis aucune faute, les assureurs et les tribunaux se réfèrent aux 10 règles de la Fédération Internationale de Ski de conduite du skieur de déscente et du snowboarder :
   
-  {% include youtube.html id="z2gCNQVSi2w" %}
+  {% include youtube.html id="z2gCNQVSi2w" about="Présentation des 10 règles de la Fédération Internationale de Ski" %}
   
   Ainsi, celui qui n’aura pas respecté une voire plusieurs des règles de la Fédération sera reconnue comme le responsable de l’accident.
   

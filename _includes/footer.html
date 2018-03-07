@@ -1,5 +1,5 @@
 <!-- Home Footer -->
-<footer class="HomeFooter u-highlighted-content section">
+<footer class="HomeFooter u-highlighted-content section" role="complementary">
     <div class="container">
         <div class="row">
             {% if site.posts.size > 0 %}
@@ -7,7 +7,7 @@
                 <h5>Les derniers articles</h5>
                 <ul>
                 {% for post in site.posts limit:2 %}
-                    <li>
+                    <li role="article">
                         <a href="{{ post.url | relative_url }}">
                             <h4>{{ post.title | escape }}</h4>
                             {% if post.subtitle %}<h6>{{ post.subtitle | escape }}</h6>{% endif %}
@@ -40,14 +40,14 @@
                         <ul>
                             {% if site.twitter_username %}
                             <li>
-                                <a href="https://twitter.com/{{ site.twitter_username }}" class="SocialLink twitter-link">
+                                <a href="https://twitter.com/{{ site.twitter_username }}" class="SocialLink twitter-link" aria-label="Compte Twitter de Maître Sophie Moutot Noce">
                                     <i class="fa fa-twitter"></i>
                                 </a>
                             </li>
                             {% endif %}
                             {% if site.linkedin_username %}
                             <li>
-                                <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="SocialLink linkedin-link">
+                                <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="SocialLink linkedin-link" aria-label="Compte LinkedIn de Maître Sophie Moutot Noce">
                                     <i class="fa fa-linkedin"></i>
                                 </a>
                             </li>

@@ -3,28 +3,30 @@ layout: default
 is_post: true
 ---
 {% if page.unsplash_id %}
-<div class="Post-header">
+<header class="Post-header">
     <amp-img
             src="https://source.unsplash.com/{{ page.unsplash_id }}/800x400"
             srcset="https://source.unsplash.com/{{ page.unsplash_id }}/400x200 400w, https://source.unsplash.com/{{ page.unsplash_id }}/800x400 800w, https://source.unsplash.com/{{ page.unsplash_id }}/1600x800 1600w, https://source.unsplash.com/{{ page.unsplash_id }}/3200x1600 3200w"
             width="800"
             height="400"
             layout="responsive"
-            alt="{{ page.title }}">
+            alt="{{ page.title }}"
+            aria-hidden="true">
     </amp-img>
     <h1>
         {{ page.title }}
     </h1>
-</div>
+</header>
 {% endif %}
-<div class="Post container">
+<section class="Post container" role="main">
     <amp-img
             class="Post-image"
             src="/assets/sophie-200x300.jpg"
             srcset="/assets/sophie-200x300.jpg 200w"
             width="100"
             height="150"
-            alt="Maitre Sophie Moutot Noce">
+            alt="Maitre Sophie Moutot Noce"
+            aria-hidden="true">
     </amp-img>
     {% if page.date %}
     {% include post_date.html date=page.date %}
@@ -43,4 +45,4 @@ is_post: true
     <div class="clearfix"></div>
 
     {{ content }}
-</div>
+</section>

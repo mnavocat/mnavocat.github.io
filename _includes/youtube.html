@@ -2,4 +2,6 @@
     data-videoid="{{include.id}}"
     layout="responsive"
     width="{{ include.width | default:480 }}"
-    height="{{ include.height | default:270 }}" />
+    height="{{ include.height | default:270 }}"
+    aria-label="Vidéo Youtube intégrée à la page: {{ include.about }}"
+    />
