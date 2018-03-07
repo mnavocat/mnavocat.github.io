@@ -325,6 +325,10 @@ address {
     }
 }
 
+.Competencies .col {
+  padding: $padding-small;
+}
+
 @media screen and (min-width: 600px) {
     .Slide-overlay p .text {
         font-size: $slide-text-font-size-medium;
@@ -336,7 +340,6 @@ address {
         font-size: $slide-text-font-size-large;
     }
 }
-
 
 /**************************************************
  * Post
@@ -425,6 +428,3 @@ address {
   }
 }
 
-/**************************************************
- * Other Styles
- **************************************************/
