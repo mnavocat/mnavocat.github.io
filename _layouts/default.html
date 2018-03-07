@@ -25,5 +25,6 @@
     {% include menu.html %}
     {{ content }}
     {% unless page.skip_footer %}{% include footer.html %}{% endunless %}
+    {% if site.google_analytics_id %}{% include ga.html %}{% endif %}
 </body>
 </html>

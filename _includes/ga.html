@@ -1,0 +1,36 @@
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "{{ site.google_analytics_id }}"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    },
+    "trackClickOnLinkedInink" : {
+      "on": "click",
+      "selector": ".linkedin-link",
+      "request": "social",
+      "vars": {
+          "socialNetwork": "linkedin",
+          "socialAction": "visit",
+          "socialTarget": "https://linkedin.com/in/{{ site.linkedin_username }}"
+      }
+    },
+    "trackClickOnTwitterLink" : {
+      "on": "click",
+      "selector": ".twitter-link",
+      "request": "social",
+      "vars": {
+          "socialNetwork": "twitter",
+          "socialAction": "visit",
+          "socialTarget": "https://twitter.com/{{ site.twitter_username }}"
+      }
+    }
+  }
+}
+</script>
+</amp-analytics>
+

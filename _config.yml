@@ -35,6 +35,8 @@ home_slider:
   - Vous avez eu un accident à vélo
   - Avez ou sans tiers identifié, nous pouvons vous aider à être indemnisé
 
+google_analytics_id: "UA-115311940-1"
+
 # Build settings
 markdown: kramdown
 plugins:
