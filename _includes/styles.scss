@@ -333,6 +333,9 @@ address {
     .Slide-overlay p .text {
         font-size: $slide-text-font-size-medium;
     }
+  .Competencies .col p {
+    font-size: 0.9em;
+  }
 }
 
 @media screen and (min-width: 1000px) {

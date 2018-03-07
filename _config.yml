@@ -11,6 +11,8 @@ twitter_username: SMNAvocat
 linkedin_username: sophiemoutotnoce
 google_plus_profile_url: "https://plus.google.com/u/2/108738942293580871499"
 map_api_key: "AIzaSyBg5ePLEbSyQqLxLgelQqUTdRmxy4BsIHA"
+google_analytics_id: "UA-115311940-1"
+
 address:
   about: dans le 1er arrondissement de Paris
   name: Maître Sophie Moutot Noce
@@ -36,7 +38,29 @@ home_slider:
   - Vous avez eu un accident à vélo
   - Contactez le cabinet pour vous assister dans vos démarches
 
-google_analytics_id: "UA-115311940-1"
+competencies:
+- title: "Accidents de la circulation"
+  texts:
+  - "Vous êtes piéton, cycliste, passager ou conducteur d’un deux roues ou d’une voiture et avez été victime d’un accident."
+  - "Le Cabinet vous assiste et vous défend dans vos démarches indemnitaires."
+- title: "Accidents de transport"
+  texts: 
+  - "Vous avez été victime d’un accident lorsque vous étiez usager des transports en commun: train, métro, bus, RER, avion etc."
+  - "Contactez le Cabinet afin d’être orienté, assisté et obtenir la réparation de vos préjudices."
+- title: "Accidents sportifs"
+  texts: 
+  - "Pour toutes blessures lors de vos activités sportives et/ou de loisir: ski, surf, balade équestre etc."
+  - "Le Cabinet saura vous assister pour faire reconnaître vos droits et vous obtenir la meilleure indemnisation."
+- title: "Aggressions et attentats"
+  texts:
+  - "Victimes de violences volontaires ou involontaires (à caractère sexuel ou non) occasionnant des séquelles physiques et/ou psychologiques définitives."
+  - "Le Cabinet vous aidera à obtenir l indemnisation de vos préjudices par la Solidarité Nationale."
+- title: "Accidents scolaires"
+  texts:
+  - "Votre enfant a eu un accident commis involontairement par un autre enfant en cours de récréation. Il peut obtenir l’indemnisation de ses préjudices et vous pouvez réclamer le remboursement des frais que vous avez engagés auprès de l’assurance habitation responsabilité civile des parents de cet autre enfant."
+- title: "Accidents médicaux"
+  texts:
+  - "Le Cabinet vous assistera dans vos démarches que vous soyez victime d'un accident médical ayant pour cause la faute d'un médecin, une infection nosocomiale ou encore un aléa thérapeutique."
 
 # Build settings
 markdown: kramdown
@@ -45,3 +69,4 @@ plugins:
   - jekyll-sitemap
 sass:
   style: compressed
+
