@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  Droits des proches suite à un accident collectif
-subtitle: Proches d'une victime décédée dans le cadre d'un accidend collectif, quels sont vos droits ?
+subtitle: Proches d'une victime décédée dans le cadre d'un accident collectif, quels sont vos droits ?
 published: 2018-02-01 12:59:00 +0100
+updated: 2018-03-08 17:42:00 +0100
 permalink: /droits-des-proches-suite-a-un-accident-collectifs/
 unsplash_id: 7qTWk41nDgM
 categories: conseils
@@ -10,10 +11,10 @@ categories: conseils
 
 Un de vos proches est décédé suite à un accident collectif.
 
-Vous bénéficiez de droits particuliers à double titre :
+Vous bénéficiez de droits particuliers à double titre:
 
-- D’une part, en votre qualité d’ayant droit dans le cadre de sa succession,
-- D’autre part, au titre de vos préjudices personnels du fait de sa disparition.
+- En votre qualité d’ayant droit dans le cadre de sa succession,
+- Au titre de vos préjudices personnels du fait de sa disparition.
 
 En effet, le législateur a instauré un régime favorable aux victimes d’accidents collectifs tels que attentats, crash 
 d’avion, hélicoptère, collision train/car…
@@ -21,12 +22,12 @@ d’avion, hélicoptère, collision train/car…
 *Vous trouverez ci-dessous la liste des préjudices pour lesquels vous pouvez obtenir une indemnisation, ainsi que la 
 procédure à privilégier pour les accidents collectifs hors accident de la route.*
 
-## A. Sur les préjudices auxquels peuvent prétendre les proches d’un proche suite à son décès dans un accident collectif
+## A. Sur les préjudices auxquels peuvent prétendre les proches d’une victime décédée dans un accident collectif
 
 Il doit être distingué :
 
 - Les préjudices subis par la victime directe et qui pourront être réclamés par ses ayants droits au titre de la succession,
-- Les préjudices subis par les proches appelés les victimes par ricochet.
+- Les préjudices subis personnellement par les proches 
 
 ### 1. Sur les préjudices de la victime directe
 
@@ -74,4 +75,4 @@ Hormis les accidents de la route pour qui la loi badinter organise les modalité
 - Il ne doit pas s’agir d’un accident entrant dans le cadre de la loi des accidents de la circulation, ni un acte de chasse, ni un accident du travail, ni un accident dû à l’amiante.
  
 
-Pour tout complément d’information, n’hésitez pas à contacter Maître Sophie MOUTOT NOCE, le premier rendez vous est gratuit et sans engagement. Des conseils personnels et individualisés vous seront apportées: Me Sophie MOUTOT NOCE, Avocate au Barreau de PARIS, {% include email.html %}, {% include telephone.html %}.
+Pour tout complément d’information, n’hésitez pas à contacter Maître Sophie MOUTOT NOCE, le premier rendez vous est gratuit et sans engagement. Des conseils personnels et individualisés vous seront apportés: {{ site.owner }}, Avocate au Barreau de PARIS, {% include email.html %}, {% include telephone.html %}.

@@ -3,6 +3,7 @@ layout: post
 title: "Coursiers ou livreurs à vélo, cyclistes habituels ou occasionnels: attention au changement d'heure"
 subtitle: "6 conseils pratiques si vous êtes victimes d’un accident de la circulation"
 published: 2017-10-30 12:24:00 +0100
+updated: 2018-03-08 17:42:00 +0100
 permalink: /coursiers-ou-livreurs-a-velo-cyclistes-habituels-ou-occasionnels-attention-au-changement-dheure/
 unsplash_id: 0gLH1kqRldc
 categories: conseils
@@ -12,7 +13,7 @@ Chaque année, les accidents corporels augmentent de plus de 43% entre le mois d
 
 De même, à partir du mois de septembre, 47% des accidents se produisent entre 17 heures et 19 heures, faute de visibilité.
 
-[Source sur le site du parision](http://www.leparisien.fr/paris-75008/paris-pietons-et-cyclistes-faites-attention-au-passage-a-l-heure-d-hiver-26-10-2017-7357176.php)
+[Source sur le site du parisien](http://www.leparisien.fr/paris-75008/paris-pietons-et-cyclistes-faites-attention-au-passage-a-l-heure-d-hiver-26-10-2017-7357176.php)
 
 Six conseils pratiques pour les personnes circulant occasionnellement, régulièrement et/ou professionnellement à vélo sur les routes :
 
@@ -44,7 +45,7 @@ Pour solliciter une indemnisation au titre d’un accident de la circulation, il
 
 #### VI. Prendre attache avec un avocat assistant exclusivement les victimes d’accident corporels qui pourra vous aider à obtenir les meilleures indemnités pour l’ensemble des préjudices causés par l’accident
 
-- [Liste des préjudices indemnisables](http://mnavocat.fr/les-prejudices-indemnisables-de-la-victime-directe-suite-a-un-accident-de-la-circulation-une-agression-un-accident-medical-ou-tout-type-devenement-accidentel/)
-- [Remboursement de vos dépenses de santé y compris celles non prises en charge par votre mutuelle](http://mnavocat.fr/victime-dun-accident-de-la-route-remboursement-de-toutes-vos-depenses-de-sante/)
+- [Liste des préjudices indemnisables]({% link _posts/2017-07-13-les-prejudices-indemnisables.md %})
+- [Remboursement de vos dépenses de santé y compris celles non prises en charge par votre mutuelle]({% link _posts/2017-10-23-accident-de-la-route.md %})
  
 N’hésitez pas à contacter Maître Sophie MOUTOT NOCE pour tout complément d’information, le premier rendez-vous est gratuit et sans engagement.
